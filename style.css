@@ -1,0 +1,127 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .banner {
+      background: url('img/bannerEssenza_.jpg') no-repeat center center/cover;
+      color: rgba(13, 13, 13, 0.364);
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .botao {
+      background-color: #f0c040;
+      color: #222;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+      border: none;
+      text-decoration: none;
+    }
+
+    .botao:hover {
+      background-color: #e0b030;
+    }
+
+    .produto-card {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      height: 100%;
+    }
+
+    .produto-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .produto-card h3 {
+      margin: 10px 0 5px;
+      font-size: 1.1rem;
+    }
+
+    .produto-card p {
+      color: #650950;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .produto-card button {
+      background-color: #222;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .produto-card button:hover {
+      background-color: #444;
+    }
+
+    #searchForm {
+     width: 200px;
+     z-index: 1050;
+    }
+
+    .menu-dropdown {
+        position: relative;
+    }
+
+    .menu-dropdown .dropdown-menu-css {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #343a40; 
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    border-radius: 5px;
+    min-width: 150px;
+    z-index: 1000;
+    }
+
+    .menu-dropdown .dropdown-menu-css li {
+    width: 100%;
+    }
+
+    .menu-dropdown .dropdown-menu-css li a {
+    display: block;
+    padding: 8px 15px;
+    color: white;
+    text-decoration: none;
+    }
+
+    .menu-dropdown .dropdown-menu-css li a:hover {
+    background-color: #495057;
+    }
+
+    
+    .menu-dropdown:hover .dropdown-menu-css,
+    .menu-dropdown:focus-within .dropdown-menu-css {
+    display: block;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }

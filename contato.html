@@ -19,8 +19,8 @@
                     <i class="bi bi-list" style="font-size: 1.5rem; color: white;"></i>
                 </button>
                 <ul class="dropdown-menu-css">
-                    <li><a href="bodysuit.html">Bodysuit</a></li>
-                    <li><a href="saias.html">Saias</a></li>
+                    <li><a href="../essenza/bodysuit.html">Bodysuit</a></li>
+                    <li><a href="../essenza/saias.html">Saias</a></li>
                     <li><a href="contato.html">Contato</a></li>
                 </ul>
             </div>
@@ -28,50 +28,38 @@
             <div><a class="logo text-white text-decoracion: none" href="index.html">Essenza</a></div>
             
             <div class="d-flex flex-column flex-md-row align-items-center gap-2">
-                <a href="carrinho.html" class="btn btn-dark">
+                <button class="btn btn-dark">
                     <i class="bi bi-cart" style="font-size: 1.5rem; color: white;"></i>
-                </a>
+                </button>
                 <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
             </div>
         </div>
     </header>
 
-    <section class="banner">
-        <h1><b>Nova coleção: EasyWear 2025</b></h1>
-        <p><b>Descubra as tendências da estação</b></p>
-    </section>
-
     <main class="container my-5">
-        <h2 class="text-center mb-4">Destaques</h2>
-        <div class="row g-4">
-        <div class="col-12 col-sm-6 col-md-4">
-            <div class="produto-card">
-            <img src="img/bodysuit_chic.jpg" alt="Bodysuit Chic" />
-            <h3>Bodysuit Chic</h3>
-            <p>R$ 48,30</p>
-            <button>Adicionar ao Carrinho</button>
+        <h1 class="text-center mb-4">Fale Conosco</h1>
+        <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form>
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nome" required>
             </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4">
-            <div class="produto-card">
-            <img src="img/bodysuit_fatale.jpg" alt="Bodysuit Fatale" />
-            <h3>Bodysuit Fatale</h3>
-            <p>R$ 48,30</p>
-            <button>Adicionar ao Carrinho</button>
+            <div class="mb-3">
+                <label for="emailContato" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="emailContato" required>
             </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4">
-            <div class="produto-card">
-            <img src="img/bodysuit_fantasy.jpg" alt="Bodysuit Fantasy" />
-            <h3>Bodysuit Fantasy</h3>
-            <p>R$ 64,93</p>
-            <button>Adicionar ao Carrinho</button>
+            <div class="mb-3">
+                <label for="mensagem" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="mensagem" rows="4" required></textarea>
             </div>
+            <button type="submit" class="btn btn-dark" style="color:#ffffff;">Enviar Mensagem</button>
+            </form>
         </div>
         </div>
     </main>
 
-  <footer>
+  <footer style="margin-top: 96px;">
     <p>&copy; 2025 Essenza. Todos os direitos reservados.</p>
   </footer>
 

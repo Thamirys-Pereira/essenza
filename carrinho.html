@@ -31,48 +31,25 @@
                 <a href="carrinho.html" class="btn btn-dark">
                     <i class="bi bi-cart" style="font-size: 1.5rem; color: white;"></i>
                 </a>
-                <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                <button class="btn btn-outline-light" data-bs-toggle="Essenza" data-bs-target="#loginEssenza">Login</button>
             </div>
         </div>
     </header>
 
-    <section class="banner">
-        <h1><b>Nova coleção: EasyWear 2025</b></h1>
-        <p><b>Descubra as tendências da estação</b></p>
-    </section>
+     <main class="container my-5">
+    <h1 class="text-center mb-4">Seu Carrinho</h1>
 
-    <main class="container my-5">
-        <h2 class="text-center mb-4">Destaques</h2>
-        <div class="row g-4">
-        <div class="col-12 col-sm-6 col-md-4">
-            <div class="produto-card">
-            <img src="img/bodysuit_chic.jpg" alt="Bodysuit Chic" />
-            <h3>Bodysuit Chic</h3>
-            <p>R$ 48,30</p>
-            <button>Adicionar ao Carrinho</button>
-            </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4">
-            <div class="produto-card">
-            <img src="img/bodysuit_fatale.jpg" alt="Bodysuit Fatale" />
-            <h3>Bodysuit Fatale</h3>
-            <p>R$ 48,30</p>
-            <button>Adicionar ao Carrinho</button>
-            </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4">
-            <div class="produto-card">
-            <img src="img/bodysuit_fantasy.jpg" alt="Bodysuit Fantasy" />
-            <h3>Bodysuit Fantasy</h3>
-            <p>R$ 64,93</p>
-            <button>Adicionar ao Carrinho</button>
-            </div>
-        </div>
-        </div>
-    </main>
+    <div id="lista-carrinho" class="mb-4"></div>
+
+    <div id="resumo-pedido" class="produto-card p-3">
+      <h4>Resumo do Pedido</h4>
+      <p id="total-geral"></p>
+      <button class="btn btn-warning w-100">Finalizar Compra</button>
+    </div>
+  </main>
 
   <footer>
-    <p>&copy; 2025 Essenza. Todos os direitos reservados.</p>
+    <p>&copy; 2025 ModaTrend. Todos os direitos reservados.</p>
   </footer>
 
   <script src="script.js"></script>
